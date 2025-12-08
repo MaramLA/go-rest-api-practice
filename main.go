@@ -4,6 +4,7 @@ import (
 	"net/http"
 	"time"
 
+	"example.com/go-api-practice/db"
 	"example.com/go-api-practice/models"
 	"github.com/gin-gonic/gin"
 )
@@ -12,6 +13,7 @@ import (
 
 func main(){
 
+	db.InitDB()
 	server := gin.Default()
 
 	server.GET("/", getEvents)
@@ -21,7 +23,11 @@ func main(){
 }
 
 func getEvents(c *gin.Context){
-	events := models.GetAllEvents()
+	events, err := models.GetAllEvents()
+	if err != nil{
+			c.JSON(http.StatusInternalServerError, gin.H{"message": "events could not be fetched", "error": err.Error()})
+
+	}
 	c.JSON(http.StatusOK, gin.H{"message": "events retrieved successfully", "data": events})
 }
 
@@ -36,11 +42,16 @@ func createEvent(c *gin.Context){
 		return
 	}
 
-	event.ID = len(models.GetAllEvents())+1
-	event.UserId = len(models.GetAllEvents())+1
+	event.ID = 1
+	event.UserId = 1
 	event.DataTime = time.Now()
 
-	event.Save()
+	err = event.Save()
+
+	if err != nil{
+		c.JSON(http.StatusInternalServerError, gin.H{"message": "could not save event to database", "error": err.Error()})
+		return
+	}
 
 	c.JSON(http.StatusCreated, gin.H{"message": "event created successfully", "data": event})
 
