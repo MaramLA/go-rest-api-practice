@@ -1,8 +1,9 @@
 POST http://localhost:8080/event
 content-type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQGdtYWlsLmNvbSIsImV4cCI6MTc2NTM4MDQzMywidXNlcklkIjoyfQ.fiJvSubb83QTiB5_0uPEvmz397a6P7aTUOLc9jGgLTs
 
 {
-    "name": "event 1",
+    "name": "event 2",
     "description": "event description",
     "location": "event location",
     "dateTime": "2024-07-01T10:00:00Z"
