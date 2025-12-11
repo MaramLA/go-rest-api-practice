@@ -41,10 +41,7 @@ func cancelRegistration(c *gin.Context) {
 
 	var event models.Event
 	event.ID = eventId
-	event.UserId = userId
-	if event.UserId != userId {
-		c.JSON(http.StatusUnauthorized, gin.H{"message": "unauthorized to cancel registration for this event"})
-	}
+	
 	err = event.CancelRegister(userId)
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"message": "could not cancel registration for event", "error": err.Error()})
