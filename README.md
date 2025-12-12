@@ -1,6 +1,8 @@
 <h1>Go Practice Repository — Based on “Go: The Complete Guide” by Maximilian Schwarzmüller</h1>
 
-
+</br>
+</br>
+</br>
 
 <p>
 This repository contains my hands-on practice and implementations from the 
@@ -8,6 +10,9 @@ This repository contains my hands-on practice and implementations from the
 It documents the key concepts I learned and the projects I built throughout the course.
 </p>
 
+</br>
+</br>
+</br>
 
 
 <h2>📘 What I Implemented</h2>
@@ -21,6 +26,9 @@ It documents the key concepts I learned and the projects I built throughout the 
   <p>🔹 JSON handling, middleware, and clean project architecture</p>
 </ul>
 
+</br>
+</br>
+</br>
 
 
 <h2>🔗 Useful Resources for Learning Go</h2>
