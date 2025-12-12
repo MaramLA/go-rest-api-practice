@@ -18,7 +18,6 @@ It documents the key concepts I learned and the projects I built throughout the 
   <p>🔹 JSON handling, middleware, and clean project architecture</p>
 </ul>
 
-</br>
 
 <h2>🔗 Useful Resources for Learning Go</h2>
 <ul>
