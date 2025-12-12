@@ -8,17 +8,17 @@ It documents the key concepts I learned and the projects I built throughout the 
 
 <h2>📘 What I Implemented</h2>
 <ul>
-  <h3>🔹 Core Go syntax and key language concepts</h3>
-  <h3>🔹 Working with structs, interfaces, pointers, slices, and maps</h3>
-  <h3>🔹 Concurrency basics using goroutines and channels</h3>
-  <h3>🔹 Error handling and unit testing</h3>
-  <h3>🔹 Go modules, dependency management, and package organization</h3>
-  <h3>🔹 Building RESTful APIs using the Gin framework</h3>
-  <h3>🔹 JSON handling, middleware, and clean project architecture</h3>
+  <p>🔹 Core Go syntax and key language concepts</p>
+  <p>🔹 Working with structs, interfaces, pointers, slices, and maps</p>
+  <p>🔹 Concurrency basics using goroutines and channels</p>
+  <p>🔹 Error handling and unit testing</p>
+  <p>🔹 Go modules, dependency management, and package organization</p>
+  <p>🔹 Building RESTful APIs using the Gin framework</p>
+  <p>🔹 JSON handling, middleware, and clean project architecture</p>
 </ul>
 
 <h2>🔗 Useful Resources for Learning Go</h2>
 <ul>
-  <h3><strong>Go Playground:</strong> https://go.dev/play/</h3>
-  <h3><strong>Official Go Documentation:</strong> https://go.dev/doc/</h3>
+  <p><strong>Go Playground:</strong> https://go.dev/play/</p>
+  <p><strong>Official Go Documentation:</strong> https://go.dev/doc/</p>
 </ul>
