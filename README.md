@@ -7,7 +7,7 @@ It documents the key concepts I learned and the projects I built throughout the 
 </p>
 
 <h2>📘 What I Implemented</h2>
-<ul>
+<ul style="list-style-type: none; padding-left: 0;">
   <li>🔹 Core Go syntax and key language concepts</li>
   <li>🔹 Working with structs, interfaces, pointers, slices, and maps</li>
   <li>🔹 Concurrency basics using goroutines and channels</li>
@@ -18,7 +18,7 @@ It documents the key concepts I learned and the projects I built throughout the 
 </ul>
 
 <h2>🔗 Useful Resources for Learning Go</h2>
-<ul>
+<ul style="list-style-type: none; padding-left: 0;">
   <li><strong>Go Playground:</strong> https://go.dev/play/</li>
   <li><strong>Official Go Documentation:</strong> https://go.dev/doc/</li>
 </ul>
