@@ -6,7 +6,6 @@ This repository contains my hands-on practice and implementations from the
 It documents the key concepts I learned and the projects I built throughout the course.
 </p>
 
-</br>
 
 <h2>📘 What I Implemented</h2>
 <ul>
