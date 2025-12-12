@@ -1,6 +1,5 @@
 <h1>Go Practice Repository — Based on “Go: The Complete Guide” by Maximilian Schwarzmüller</h1>
 
-</br>
 <p>
 This repository contains my hands-on practice and implementations from the 
 <strong>“Go: The Complete Guide”</strong> course on Udemy.  
@@ -21,8 +20,6 @@ It documents the key concepts I learned and the projects I built throughout the 
 </ul>
 
 </br>
-</br>
-
 
 <h2>🔗 Useful Resources for Learning Go</h2>
 <ul>
